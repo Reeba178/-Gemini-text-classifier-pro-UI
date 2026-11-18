@@ -16,7 +16,7 @@ if not api_key:
     st.stop()
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("model = genai.GenerativeModel("gemini-3.1-flash-lite")
+model = genai.GenerativeModel("gemini-3.1-flash-lite")
 
 text = st.text_area("Enter text to analyze:", height=150, placeholder="Type or paste your text here...")
 
