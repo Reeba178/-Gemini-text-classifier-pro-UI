@@ -1,3 +1,2 @@
-customtkinter
-google-genai
-python-dotenv
+streamlit
+google-generativeai
